@@ -13,16 +13,22 @@ header {
     .headername {
         float: left;
         background-color: #4aaaa5;
-        width: 18%;
+        color: white;
+        width: 200px;
         text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: 10px;
+        font-size: 30px;
+        height: 70px;
         margin-left: 260px;
+        line-height: 70px;
         }
-    
+
+/* navigation bar for all pages*/
     .navigationbar {
         float: left;
         text-align: center;
-        margin-left: 470px;
+        margin-left: 510px;
         margin-top: 30px;
         }
 
@@ -47,189 +53,206 @@ header {
 
 body {
     background-image: url("../images/background.jpg");
-    }
-
-.maincontentbox {
-    background-color:#ffffff;
-    border: #dddddd;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 650px;
-    height: 100%;
-    margin-left: 260px;
-    margin-top: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
-    float: left;
-    }
-
-.img1 {
-    float: left;
-    height: 200px;
-    width: 200px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 0;
-    padding-bottom: 10px;
-    }
-
-#bodyh1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color:#4aaaa5;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    border-bottom-color: #dddddd;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    }
-
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    height: 900px;
     width: 100%;
-    background-color: darkgray;
-    color: lightgrey;
-    text-align: center;
-    border-top: #4aaaa5;
-    border-top-style: solid;
-    border-top-width: 5px;
     }
 
-.connectwithme {
-    background-color:#ffffff;
-    border: #dddddd;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 1000px;
-    margin-top: 20px;
-    width: 270px;
-    height: 150px;
-    }
+/* main contianer for all primary content for all html pages */
+    .maincontentbox {
+        background-color:#ffffff;
+        border: #dddddd;
+        padding-top: 5px;
+        padding-bottom: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 650px;
+        height: auto;
+        margin-left: 260px;
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #777777;
+        float: left;
+        margin-bottom: 20px;
+        }
 
-.connecticons{
-    list-style-type: none;
-    margin: 0;
-    padding-left: 10px;
-    }
+        .img1 {
+            float: left;
+            height: 200px;
+            width: 200px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            }
 
-.img2 {
-    height: 50px;
-    width: 50px;
-    margin: 0;
-    padding-right: 6px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    }
-.img3 {
-    height: 50px;
-    width: 50px;
-    padding-left: 6px;
-    padding-right: 6px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    }
-.img4 {
-    height: 50px;
-    width: 50px;
-    padding-left: 6px;
-    padding-right: 6px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    }
-.img5 {
-    height: 50px;
-    width: 50px;
-    padding-left: 6px;
-    padding-right: 6px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    }
+        #bodyh1{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color:#4aaaa5;
+            border-bottom-style: solid;
+            border-bottom-width: 2px;
+            border-bottom-color: #dddddd;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            font-size: 30px;
+            }
 
-#bodyh2{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color:#4aaaa5;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    border-bottom-color: #dddddd;
-    padding: 5px;
-    text-align: left;
-    }
+        p {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 10px;
+            }
 
-input {
-    width: 590px;
-    color: lightgray;
-    font-family: Arial, Helvetica, sans-serif;
-    }
+/*connect with me section on all html pages */
+    .connectwithme {
+        background-color:#ffffff;
+        border: #dddddd;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-size: 30px;
+        margin-left: 980px;
+        margin-top: 20px;
+        width: 270px;
+        height: 100px;
+        text-align: center;
+        }
 
-textarea {
-    width: 590px;
-    height: 260px;
-    font-family: Arial, Helvetica, sans-serif;
-    }
+        .connecticons{
+            list-style-type: none;
+            margin: 0;
+            padding-left: 10px;
+            }
 
-form {
-    font-family: Arial, Helvetica, sans-serif;
-    color:rgb(90, 89, 89);
-    }
+        .img2 {
+            height: 50px;
+            width: 50px;
+            margin: 0;
+            padding-right: 6px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            }
 
-#send {
-    width: 100px;
-    height: 40px;
-    background-color: #4aaaa5;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    }
+        #bodyh2{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color:#4aaaa5;
+            border-bottom-style: solid;
+            border-bottom-width: 2px;
+            border-bottom-color: #dddddd;
+            padding: 5px;
+            text-align: center;
+            }
 
-#portpic {
-    height: 200px;
-    width: 250px;
-    }
+/*footer section on all html pages */
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: darkgray;
+        color: lightgrey;
+        text-align: center;
+        vertical-align: bottom;
+        border-top: #4aaaa5;
+        border-top-style: solid;
+        border-top-width: 12px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        }
 
+/* contact me page */
+    form {
+        font-family: Arial, Helvetica, sans-serif;
+        color:rgb(90, 89, 89);
+        padding: 5px;
+        }
 
-.grid-container {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: auto auto;
-    margin-left: 40px;
-    }
+        input {
+            width: 590px;
+            color: #777777;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 5px;
+            margin-left: 5px;
+            }
 
-.box1{
-    position: absolute;
-    background-color: #4aaaa5;
-    top: 335px;
-    height: 50px;
-    width: 250px;
-    z-index: 1;
-    text-align: center;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    }
+        textarea {
+            width: 590px;
+            height: 260px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 5px;
+            margin-bottom: 10px;
+            }
 
-.box2{
-    position: absolute;
-    background-color: #4aaaa5;
-    top: 550px;
-    height: 50px;
-    width: 250px;
-    z-index: 1;
-    text-align: center;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    }
+        #send {
+            width: 100px;
+            height: 40px;
+            background-color: #4aaaa5;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            }
 
-.box3{
-    position: absolute;
-    background-color: #4aaaa5;
-    top: 765px;
-    height: 50px;
-    width: 250px;
-    z-index: 1;
-    text-align: center;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    }
+/* portfolio page */
+    .grid-container {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: auto auto;
+        margin-left: 40px;
+        padding-top: 10px;
+        }
+
+        #portpic {
+            height: 200px;
+            width: 250px;
+            }
+
+            .box-set {
+                text-align: center;
+                vertical-align: middle;
+                line-height: 50px;
+                color:white;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                }
+
+                .box {
+                    position: absolute;
+                    width: 250px;
+                    height: 50px;
+                    background: #4aaaa5;
+                    }
+
+                .box-1 {
+                    position: absolute;
+                    top: 305px;
+                    left: 315px;
+                    }
+                    
+                .box-2 {
+                    position: absolute;
+                    top: 520px;
+                    left: 315px;
+                        }
+
+                .box-3 {
+                    position: absolute;
+                    top: 730px;
+                    left: 315px;
+                    }
+
+                .box-4 {
+                    position: absolute;
+                    top: 305px;
+                    left: 593px;
+                    left: 625px;
+                    }
+            
+                .box-5 {
+                    position: absolute;
+                    top: 520px;
+                    left: 625px;
+                    }
+                
+                .box-6 {
+                    position: absolute;
+                    top: 730px;
+                    left: 625px;
+                    }
