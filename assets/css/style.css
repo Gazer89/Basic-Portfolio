@@ -6,13 +6,13 @@ header {
     padding-bottom: 0;
     height: 80px;
     background-color: #ffffff;
-    border: #cccccc;
+    border: #0e0590;
     position: relative;
     }
 
     .headername {
         float: left;
-        background-color: #4aaaa5;
+        background-color: #0e0590;
         color: white;
         width: 200px;
         text-align: center;
@@ -39,17 +39,18 @@ header {
         list-style-type: none;
         padding: 15px;
         font-family: Arial, Helvetica, sans-serif;
-        color: #777777;
+        color: 0e0590;
         }
               
     .navigationbar a:hover {
-        background-color: #4aaaa5;
-        color: black;
+        background-color: #0e0590;
+        color: #777777;
         }
           
-    .navigationbar a.active {
-        color: #4aaaa5;
+    .navigationbar a:active {
+        background-color: rgb(2, 10, 52);
         }
+
 
 body {
     background-image: url("../images/background.jpg");
@@ -86,7 +87,7 @@ body {
 
         #bodyh1{
             font-family: Georgia, 'Times New Roman', Times, serif;
-            color:#4aaaa5;
+            color:#0e0590;
             border-bottom-style: solid;
             border-bottom-width: 2px;
             border-bottom-color: #dddddd;
@@ -101,6 +102,7 @@ body {
             padding-top: 10px;
             padding-bottom: 10px;
             padding-right: 10px;
+            letter-spacing: 1px;
             }
 
 /*connect with me section on all html pages */
@@ -136,11 +138,11 @@ body {
 
         #bodyh2{
             font-family: Georgia, 'Times New Roman', Times, serif;
-            color:#4aaaa5;
+            color:#0e0590;
             border-bottom-style: solid;
             border-bottom-width: 2px;
             border-bottom-color: #dddddd;
-            padding: 5px;
+            padding: 7px;
             text-align: center;
             }
 
@@ -153,7 +155,7 @@ body {
         color: lightgrey;
         text-align: center;
         vertical-align: bottom;
-        border-top: #4aaaa5;
+        border-top: #0e0590;
         border-top-style: solid;
         border-top-width: 12px;
         padding-top: 10px;
@@ -186,7 +188,7 @@ body {
         #send {
             width: 100px;
             height: 40px;
-            background-color: #4aaaa5;
+            background-color: #0e0590;
             color: white;
             font-family: Arial, Helvetica, sans-serif;
             }
@@ -217,7 +219,7 @@ body {
                     position: absolute;
                     width: 250px;
                     height: 50px;
-                    background: #4aaaa5;
+                    background: #0e0590;
                     }
 
                 .box-1 {
